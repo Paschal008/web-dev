@@ -1,0 +1,36 @@
+*{    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+.container{
+    display: flex; 
+    position: relative;
+    top: 10;
+    left: 0;
+    width: 100%; 
+    height: 80px;
+    gap: 300px;
+    padding: 20px 50px;
+    align-items: center;
+    z-index: 100;
+    box-shadow: 5px 5px 10px grey;
+}
+
+.navbar a{
+    font-size: 23px;
+    color: black;
+    margin-right: 10px;
+}
+
+a:hover{
+    color: blue;
+}
+
+.one{
+    position: absolute;
+    left: 1285px
+}
+
+    

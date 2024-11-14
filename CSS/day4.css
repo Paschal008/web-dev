@@ -1,0 +1,81 @@
+/* div{
+    background-color: chocolate;
+} */
+.one{
+    background-color: dodgerblue;
+}
+
+/* CSS Combinators */
+
+/* descendant selector(space) */
+ .container li{
+    color: navy;
+} 
+
+/* child selector (>) */
+/* ul > li{
+    color: chocolate;
+} */
+
+/* adjacent sibling selector (+) */
+/* .first+li{
+    color: yellowgreen;
+} */
+
+/* general silbling selector(~) */
+/* .first~li{
+    color: indianred;
+} */
+
+/* Pseudo Class */
+
+a:hover{
+    color: red;
+}
+
+a:active{
+    color: green;
+}
+
+/* li:first-child{
+    color: darkred;
+}
+li:last-child{
+    color: violet;
+} */
+li:nth-child(2){
+    color: chocolate;
+}
+li:nth-child(odd){
+    color: blue;
+}
+
+/* Display Properties */
+
+div {
+    border: 2px solid black;
+    margin: 10px;
+}
+
+.block{
+    display: block;
+}
+
+.inline{
+    display: inline;
+    border: 2px solid black;
+    margin: 10px;
+}
+
+.inline-block{
+    display: inline-block;
+    width: 200px;
+}
+
+.box{
+    display: flex;
+    /* gap: 50px;
+    justify-content: center;
+    justify-content: end; */
+    justify-content: space-between;
+}

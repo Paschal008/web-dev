@@ -1,0 +1,17 @@
+.circle1{
+    border: 5px solid black;
+    height: 400px;
+    width: 400px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.circle2{
+    border: 5px solid black;
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+}

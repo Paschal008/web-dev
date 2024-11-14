@@ -1,0 +1,23 @@
+div{
+    border: 2px solid black;
+}
+
+.absolute{
+    height: 55px;
+    width: 130px;
+    position: absolute;
+    top: -20px;
+    right: -40px;
+    border-radius: 50%;
+    background-color: blue;
+    opacity: 0.8;
+}
+
+.relative{
+    height: 500px;
+    width: 300px;
+    position: relative;
+    margin: 30px;
+
+}
+

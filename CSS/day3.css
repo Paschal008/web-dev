@@ -1,0 +1,31 @@
+p{
+    background-color: purple;
+    color: white;
+}
+h2{ 
+    /* color: red; */ 
+    /* color: #000; */
+    /* color: rgb(rgb(110, 36, 36)); */
+    color: rgba(255, 0, 0, 0.918);
+}
+
+div{
+    /* border-style: double;
+    border-width: 5px;
+    border-color: black; */
+    border: 3px solid blue;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+
+    /* margin-top: 50px;
+    margin-left: 30px
+    margin: bottom200px
+    margin-right:3oopx; */
+
+    margin: 50px 30px 200px 300px;
+
+    padding: 40px 50px;
+
+
+}
